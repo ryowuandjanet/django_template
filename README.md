@@ -9,16 +9,13 @@ Steps:
 4.使用 python manage.py rename <newprojectname> 來修改你的專案名稱
 
 
-…or create a new repository on the command line
 
-echo "# django_template" >> README.md
 git init
+
 git add README.md
+
 git commit -m "first commit"
-git remote add origin https://github.com/ryowuandjanet/django_template.git
-git push -u origin master
-
-…or push an existing repository from the command line
 
 git remote add origin https://github.com/ryowuandjanet/django_template.git
+
 git push -u origin master
