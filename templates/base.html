@@ -1,10 +1,20 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Douument</title>
+    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/materialize/materialize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
 </head>
 <body>
 	{% block content %}
 	{% endblock content %}
+    <script src="{% static 'js/jquery-3.4.1.slim.min.js'}"></script>
+    <script src="{% static 'js/popper.min.js'}"></script>
+    <!-- <script src="{% static 'js/bootstrap/bootstrap.min.js'}"></script> -->
+    <script src="{% static 'js/fontawesome/6cbc1ff495.js' %}"></script>
+    <script src="{% static 'js/materialize/materialize.min.js' %}"></script>
 </body>
 </html>
